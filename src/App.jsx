@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
-import abi from './abiAss.json'; // Ensure the path is correct
+import abi from './abiAss.json'; 
 
 const App = () => {
   const [userInput, setUserInput] = useState('');
