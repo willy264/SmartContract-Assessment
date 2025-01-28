@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
+<<<<<<< HEAD
 import abi from './abiAss.json';
 import './App.css';
+=======
+import abi from './abiAss.json'; 
+>>>>>>> e3180420a2d3384a60ebcdaf8b8873adc5668613
 
 const App = () => {
   const [userInput, setUserInput] = useState('');
